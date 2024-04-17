@@ -59,14 +59,23 @@ def merge_pdfs_in_box(output_filename):
     folder_path = 'box'
     out_doc = fitz.open()
     print('\nMerging pdf files in box...\n')
-    for filename in tqdm(os.listdir(folder_path)):
+    names = []
+    for filename in tqdm(sorted(os.listdir(folder_path))):
         if filename.endswith('.pdf'):
+            names.append(filename)
             filepath = os.path.join(folder_path, filename)
             temp_doc = fitz.open(filepath)
             out_doc.insert_pdf(temp_doc)
     out_doc.save(output_filename)
     out_doc.close()
+    print('\nMerged in this order...\n')
+    i = 1
+    for f in names:
+        print(f'{i}. {f}')
+        i += 1
     print(f"\nAll PDFs in '{folder_path}' merged into '{output_filename}'\n")
+
+
 
 def add_extension_if_absent(filename):
     return filename if filename.endswith('.pdf') else filename+'.pdf'
