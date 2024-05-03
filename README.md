@@ -6,7 +6,7 @@ A minimalistic offline Python Console App for PDF utilities. Includes
 How to run?
 - Clone the repository
 ```
-https://github.com/aaniksahaa/hello-pdf.git
+git clone https://github.com/aaniksahaa/hello-pdf.git
 ```
 - Install the requirements
 ```
