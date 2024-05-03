@@ -5,9 +5,13 @@ A minimalistic offline Python Console App for PDF utilities. Includes
 
 How to run?
 - Clone the repository
-```https://github.com/aaniksahaa/hello-pdf.git```
+```
+https://github.com/aaniksahaa/hello-pdf.git
+```
 - Install the requirements
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 - Then double-click on run.bat
 
 Please note that,
