@@ -6,3 +6,5 @@ run.py
 
 # Ignore settings.json
 settings.json
+
+.vscode/
