@@ -1,6 +1,8 @@
 # Ignore run.py
 # run.py
 
+*.pdf 
+
 # Ignore any .bat file
 *.bat
 
