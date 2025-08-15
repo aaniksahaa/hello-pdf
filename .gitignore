@@ -1,5 +1,5 @@
 # Ignore run.py
-run.py
+# run.py
 
 # Ignore any .bat file
 *.bat
