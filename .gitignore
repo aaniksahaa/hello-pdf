@@ -12,3 +12,9 @@ settings.json
 .vscode/
 
 box/
+
+inbox/
+
+outbox/
+
+
